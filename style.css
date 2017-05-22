@@ -3,7 +3,7 @@
 }
 
 p {
-  line-height: 20px;
+  line-height: 30px;
 }
 
 body {
@@ -47,6 +47,7 @@ hr {
 
 .hebe-info{
   max-width: 450px;
+  padding-left: 10px;
 }
 
 .profile-section * {
