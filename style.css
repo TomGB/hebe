@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+p {
+  line-height: 20px;
+}
+
 body {
   font-family: myFirstFont;
    padding: 0;
