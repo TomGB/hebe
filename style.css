@@ -62,11 +62,6 @@ hr {
   display: inline-block;
 }
 
-.hebe-info{
-  max-width: 450px;
-  padding-left: 20px;
-}
-
 .profile-section * {
     display: inline-block;
     vertical-align: text-top;
@@ -82,6 +77,11 @@ hr {
     width:  100%;
     height: 100%;
     border-radius: 100%;
+}
+
+.hebe-info{
+  max-width: calc(100% - 310px);
+  padding-left: 20px;
 }
 
 .sig{
@@ -107,6 +107,23 @@ form {
 .donate-form input.pay-image {
   padding-top: 5px;
   max-width: 200px;
+}
+
+@media (max-width: 650px) {
+  .profile-section{
+    text-align: center;
+  }
+
+  .hebe-info{
+    max-width: 100%;
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 500px) {
+  .revision-notes, .donate-form{
+    width: 100%;
+  }
 }
 
 @font-face {
