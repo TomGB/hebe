@@ -67,10 +67,6 @@ hr {
     border-radius: 100%;
 }
 
-.signoff{
-  text-align: center;
-}
-
 @font-face {
     font-family: myFirstFont;
     src: url('font.woff2');
