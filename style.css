@@ -2,8 +2,25 @@
   box-sizing: border-box;
 }
 
-p {
-  line-height: 30px;
+p, a, td {
+  line-height: 1.9;
+}
+
+.dropdown .subject {
+  margin: 0px;
+  background-image: url('dropdown.png');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-right: 40px;
+}
+
+.dropdown .topics {
+  display: none;
+}
+
+.dropdown .topics.visible {
+  display: block;
 }
 
 body {
@@ -67,7 +84,37 @@ hr {
     border-radius: 100%;
 }
 
+.sig{
+  font-size: 30px;
+}
+
+.revision-notes{
+  width: 49%;
+  display: inline-block;
+  vertical-align: text-top;
+}
+
+.donate-form{
+  width: 49%;
+  display: inline-block;
+  vertical-align: text-top;
+}
+
+form {
+  padding-top: 14px;
+}
+
+.donate-form input.pay-image {
+  padding-top: 5px;
+  max-width: 200px;
+}
+
 @font-face {
     font-family: myFirstFont;
     src: url('font.woff2');
+}
+
+@font-face {
+    font-family: sig;
+    src: url('MrDafoe-Regular.ttf');
 }
