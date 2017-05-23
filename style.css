@@ -6,6 +6,10 @@ p, a, td {
   line-height: 1.9;
 }
 
+a {
+  text-overflow: ellipsis;
+}
+
 .dropdown .subject {
   margin: 0px;
   background-image: url('dropdown.png');
