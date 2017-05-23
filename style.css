@@ -88,6 +88,15 @@ hr {
   padding-left: 20px;
 }
 
+.result-text{
+  font-size: inherit;
+  color: inherit;
+}
+
+.results{
+  width: 100%;
+}
+
 .sig{
   font-size: 30px;
 }
@@ -125,6 +134,10 @@ form {
 }
 
 @media (max-width: 500px) {
+  .results {
+    display: none;
+  }
+  
   .revision-notes, .donate-form{
     width: 100%;
   }
