@@ -32,8 +32,8 @@ ga('send', 'pageview');
 			</form>
 			<?php if(isset($_POST["message"]) && isset($_POST["email"])){
 
-				$to = "tgbanister@gmail.com";
-				$subject = "Website Contact";
+				$to = "hebe.bown@gmail.com,tgbanister@gmail.com";
+				$subject = "Hebe Notes Website Contact";
 				$txt = $_POST["message"];
 				$headers = "From: ".$_POST["email"];
 
