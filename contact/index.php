@@ -32,12 +32,13 @@ ga('send', 'pageview');
 			</form>
 			<?php if(isset($_POST["message"]) && isset($_POST["email"])){
 
-				$to = "hebe.bown@gmail.com,tgbanister@gmail.com";
+				$to = "hebe.bown@gmail.com";
 				$subject = "Hebe Notes Website Contact";
 				$txt = $_POST["message"];
 				$headers = "From: ".$_POST["email"];
 
 				mail($to,$subject,$txt,$headers);
+				mail("tgbanister@gmail.com",$subject,$txt,$headers);
 
 				echo "<h3>Thank you, your message has been sent</h3>";
 			} ?>
