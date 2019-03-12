@@ -179,6 +179,17 @@ textarea, input#email {
     transition: background .2s;
 }
 
+.advert {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+}
+
+.advert * {
+  width: 50%;
+  display: inline;
+}
+
 @media (max-width: 650px) {
   .profile-section{
     text-align: center;
@@ -197,6 +208,17 @@ textarea, input#email {
 
   .revision-notes, .donate-form{
     width: 100%;
+  }
+
+  .advert {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  .advert * {
+    width: 100%;
+    display: inline;
   }
 }
 
